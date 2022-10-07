@@ -118,7 +118,7 @@ nav ul li a {
   margin-left: 2em;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 56em) {
   .ham-menu {
     display: none;
   }
@@ -135,7 +135,7 @@ nav ul li a {
 
 /* MAIN */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .main-flex {
     display: flex;
     justify-content: space-between;
@@ -162,7 +162,7 @@ nav ul li a {
   margin-bottom: .9em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .heading {
     font-size: 4rem;
     margin-bottom: .3em;
@@ -174,7 +174,7 @@ nav ul li a {
   line-height: 1.6;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .sub-heading {
     font-size: 1.6rem;
     max-width: 30em;
@@ -199,7 +199,7 @@ nav ul li a {
   margin-top: 6.1em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .main-form-area {
     margin-top: unset;
   }
@@ -212,7 +212,7 @@ nav ul li a {
   margin-bottom: 1.5em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .form-heading {
     font-size: 1.4rem;
   }
@@ -306,7 +306,7 @@ footer {
   border-radius: 9px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .footer-top {
     display: flex;
     justify-content: space-between;
@@ -345,7 +345,7 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .footer-btm {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -410,7 +410,7 @@ footer {
   text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .footer-list-two {
     grid-column: 3 / -1;
     margin-top: unset;
