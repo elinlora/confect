@@ -332,6 +332,12 @@ footer {
   margin-top: .75em;
 }
 
+@media only screen and (min-width: 62em) {
+  .footer-top-btn {
+    margin-top: unset;
+  }
+}
+
 .footer-btm {
   color: #fff;
   margin-top: 3em;
