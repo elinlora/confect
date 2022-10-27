@@ -26,6 +26,10 @@ section {
   margin: 0;
 }
 
+input:focus {
+  outline: none;
+}
+
 :root {
   /* Primary */
   --clr-primary-400: hsl(271,66%,59%);
@@ -110,12 +114,22 @@ nav ul li a {
   color: var(--clr-neutral-400);
 }
 
+nav ul li a:hover,
+nav ul li a:focus {
+  color: var(--clr-primary-400);
+}
+
 .header-cta {
   color: #fff;
   background-color: var(--clr-primary-400);
   border-radius: 6px;
   padding: .6em 1.2em;
   margin-left: 2em;
+}
+
+.header-cta:hover,
+.header-cta:focus {
+  opacity: 90%;
 }
 
 @media only screen and (min-width: 56em) {
@@ -253,7 +267,7 @@ form input:nth-of-type(4) {
   margin-bottom: unset;
 }
 
-form input:last-child {
+form input[type="submit"] {
   width: unset;
   display: inline-block;
   border: none;
@@ -262,6 +276,12 @@ form input:last-child {
   background-color: var(--clr-neutral-600);
   padding: .825em 1.8em;
   margin-top: 2.5em;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+  opacity: 90%;
 }
 
 .main-form-copy {
@@ -330,6 +350,11 @@ footer {
   padding: 1em 2em;
   border-radius: 6px;
   margin-top: .75em;
+}
+
+.footer-top-btn:hover,
+.footer-top-btn:focus {
+  opacity: 90%;
 }
 
 @media only screen and (min-width: 62em) {
